@@ -12,6 +12,7 @@ public class Employee {
 
     @Id
     @Column
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public long getId() {
         return id;
     }
@@ -63,7 +64,7 @@ public class Employee {
     }
 
 
-    @ManyToOne
+    @ManyToOne (cascade = CascadeType.PERSIST)
     @JoinColumn(name = "department_id", referencedColumnName = "id")
     public Department getDept() {
         return dept;

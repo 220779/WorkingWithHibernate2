@@ -7,14 +7,24 @@
 
         <class>entity.Department</class>
         <class>entity.Employee</class>
-        <class>entity.Department</class>
-        <class>entity.Employees</class>
-        <class>entity.Employee</class>
         <properties>
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/new_schema"/>
             <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
-            <property name="hibernate.connection.username" value="root"/>
+<!--
+            <property name="dialect" value="org.hibernate.dialect.MySQLDialect"/>
+-->
+            <property name="hibernate.connection.user" value="root"/>
             <property name="hibernate.connection.password" value="Helina2001"/>
+            <property name="hibernate.show_sql" value="true"/>
+<!--
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+-->
+           <property name="hbm2ddl.auto" value="update"/>
+
+<!--
+            <property name="jakarta.persistence.validation.group.pre-persist" value="create-update"/>
+-->
+
         </properties>
     </persistence-unit>
 </persistence>

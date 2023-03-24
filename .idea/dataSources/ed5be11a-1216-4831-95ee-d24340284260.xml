@@ -1009,27 +1009,28 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="289" parent="284" name="id">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="290" parent="284" name="firstName">
+    <column id="290" parent="284" name="first_name">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="291" parent="284" name="lastName">
+    <column id="291" parent="284" name="last_name">
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="292" parent="284" name="departmentId">
+    <column id="292" parent="284" name="department_id">
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
     <foreign-key id="293" parent="284" name="employees_ibfk_1">
-      <ColNames>departmentId</ColNames>
+      <ColNames>department_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>Department</RefTableName>
     </foreign-key>
@@ -1038,8 +1039,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="295" parent="284" name="departmentId">
-      <ColNames>departmentId</ColNames>
+    <index id="295" parent="284" name="employees_ibfk_1">
+      <ColNames>department_id</ColNames>
       <Type>btree</Type>
     </index>
     <key id="296" parent="284" name="PRIMARY">
