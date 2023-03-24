@@ -3,16 +3,13 @@ package entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "Department", schema = "new_schema", catalog = "")
-public class DepartmentEntity {
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Id
-    @Column(name = "id")
+public class Department {
+
     private int id;
-    @Basic
-    @Column(name = "name")
     private String name;
 
+    @Id
+    @Column(name = "id")
     public int getId() {
         return id;
     }
@@ -21,6 +18,8 @@ public class DepartmentEntity {
         this.id = id;
     }
 
+    @Basic
+    @Column(name = "name")
     public String getName() {
         return name;
     }
@@ -29,16 +28,19 @@ public class DepartmentEntity {
         this.name = name;
     }
 
+   /* @OneToMany(mappedBy = "dept")
+    private Collection<Employee> employeesById;*/
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        DepartmentEntity that = (DepartmentEntity) o;
+        Department that = (Department) o;
 
         if (id != that.id) return false;
         if (name != null ? !name.equals(that.name) : that.name != null) return false;
-
         return true;
     }
 
@@ -49,3 +51,5 @@ public class DepartmentEntity {
         return result;
     }
 }
+
+
