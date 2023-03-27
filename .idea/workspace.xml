@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3595ad44-46f7-418f-8d10-202659bac0f2" name="Changes" comment="[add]]  - Persisting an entity">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ed5be11a-1216-4831-95ee-d24340284260.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ed5be11a-1216-4831-95ee-d24340284260.xml" afterDir="false" />
+    <list default="true" id="3595ad44-46f7-418f-8d10-202659bac0f2" name="Changes" comment="[fix]  - Fixing Main class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679907499089</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[fix]  - Fixing Main class">
+      <created>1679911186565</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679911186566</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +136,7 @@
     <MESSAGE value="[add]  - Generating Entities from database" />
     <MESSAGE value="[add]  - Persisting an entity" />
     <MESSAGE value="[add]]  - Persisting an entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add]]  - Persisting an entity" />
+    <MESSAGE value="[fix]  - Fixing Main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="[fix]  - Fixing Main class" />
   </component>
 </project>
