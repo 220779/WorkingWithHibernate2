@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3595ad44-46f7-418f-8d10-202659bac0f2" name="Changes" comment="[fix]  - Fixing Main class">
+    <list default="true" id="3595ad44-46f7-418f-8d10-202659bac0f2" name="Changes" comment="[fix]  - Fixing Employee class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="featured/queries" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -63,6 +69,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -112,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679911186566</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[fix]  - Fixing Employee class">
+      <created>1679913964585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679913964585</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +151,7 @@
     <MESSAGE value="[add]  - Persisting an entity" />
     <MESSAGE value="[add]]  - Persisting an entity" />
     <MESSAGE value="[fix]  - Fixing Main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="[fix]  - Fixing Main class" />
+    <MESSAGE value="[fix]  - Fixing Employee class" />
+    <option name="LAST_COMMIT_MESSAGE" value="[fix]  - Fixing Employee class" />
   </component>
 </project>
