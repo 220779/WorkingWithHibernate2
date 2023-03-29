@@ -3,6 +3,7 @@ package entity;
 import jakarta.persistence.*;
 
 @Entity
+@NamedQuery(name = "Employee.byDept", query = "SELECT e FROM Employee e WHERE e.dept.name = ?1")
 public class Employee {
     private long id;
     private String firstName;
@@ -73,5 +74,15 @@ public class Employee {
         this.dept = dept;
 
 }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", dept=" + dept +
+                '}';
     }
+}
 

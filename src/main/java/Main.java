@@ -1,9 +1,6 @@
 import entity.Department;
 import entity.Employee;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.EntityTransaction;
-import jakarta.persistence.Persistence;
+import jakarta.persistence.*;
 
 public class Main {
 
@@ -15,14 +12,20 @@ public class Main {
         try {
             transaction.begin();
 
-            Employee player = new Employee();
+            /*Employee player = new Employee();
             Department dept = new Department();
-            player.setId(10);
-            player.setFirstName("Rauno");
-            player.setLastName("Sappinen");
-            dept.setDepartment_id(1);
-            entityManager.persist(player);
+            player.setId(11);
+            player.setFirstName("Pipi");
+            player.setLastName("Pipi");
+            dept.setDepartment_id(2);
+            entityManager.persist(player);*/
 
+            TypedQuery<Employee> empByDeptQuery = entityManager.createNamedQuery("Employee.byDept", Employee.class);
+            empByDeptQuery.setParameter(1,"Arsenal");
+            for (Employee employee : empByDeptQuery.getResultList()) {
+                System.out.println(employee);
+                
+            }
 
             transaction.commit();
         } finally {

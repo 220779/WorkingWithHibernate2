@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3595ad44-46f7-418f-8d10-202659bac0f2" name="Changes" comment="[fix]  - Fixing Employee class">
+    <list default="true" id="3595ad44-46f7-418f-8d10-202659bac0f2" name="Changes" comment="[add]  - Executing queries">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ed5be11a-1216-4831-95ee-d24340284260.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ed5be11a-1216-4831-95ee-d24340284260.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679577676787</updated>
       <workItem from="1679577678428" duration="12290000" />
+      <workItem from="1680101502756" duration="1794000" />
     </task>
     <task id="LOCAL-00001" summary="[initial]  - creating hibernate and data source">
       <created>1679590757085</created>
@@ -126,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679913964585</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[add]  - Executing queries">
+      <created>1679937802365</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679937802365</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +163,7 @@
     <MESSAGE value="[add]]  - Persisting an entity" />
     <MESSAGE value="[fix]  - Fixing Main class" />
     <MESSAGE value="[fix]  - Fixing Employee class" />
-    <option name="LAST_COMMIT_MESSAGE" value="[fix]  - Fixing Employee class" />
+    <MESSAGE value="[add]  - Executing queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add]  - Executing queries" />
   </component>
 </project>
